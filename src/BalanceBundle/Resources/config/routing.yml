@@ -1,0 +1,3 @@
+balance_homepage:
+    path:     /
+    defaults: { _controller: BalanceBundle:Default:index }

@@ -1,0 +1,11 @@
+balance:
+    resource: "@BalanceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+work_balance:
+    resource: "@WorkBalanceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
